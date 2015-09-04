@@ -1,9 +1,9 @@
-# require_relative '../spec_helper'
+require_relative '../spec_helper'
 
-# describe Person do
-#   it 'is an Active Record model' do
-#     expect(Dog.new).to be_a_kind_of ActiveRecord::Base
-#   end
+describe Joke do
+  it 'is an Active Record model' do
+    expect(Joke.new).to be_a_kind_of ActiveRecord::Base
+  end
 
 #   describe 'associations' do
 #     describe 'a dog belongs to an owner' do
@@ -72,4 +72,4 @@
 #       end
 #     end
 #   end
-# end
+end
