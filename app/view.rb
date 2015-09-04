@@ -2,7 +2,6 @@ require 'artii'
 module View
 extend self
 
-
   def intro
     title = Artii::Base.new
     puts "*" * 106
@@ -12,6 +11,11 @@ extend self
   end
 
   def question_prompt
+    puts ">> "
+  end
+
+  def get_user_input
+    gets.chomp
   end
 
   def correct
@@ -22,7 +26,6 @@ extend self
     puts "Sorry... moving on"
   end
 
-end
 
-p = View.new
-p.intro
+
+end
