@@ -5,16 +5,15 @@ class JokeGenerator
   def initialize(args={})
     @all_jokes = args[:all_jokes]
     @all_dummy = args[:all_dummy]
-    # require 'pry'; binding.pry
-    # todo: randomize later
   end
 
   def joke_getter
     @all_jokes.shift
+
   end
 
   def dummy_getter
-    @all_dummy.shift
+    @all_dummy.sample
   end
 
   def dummy_sample
