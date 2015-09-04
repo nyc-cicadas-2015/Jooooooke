@@ -4,5 +4,8 @@ class Attempt < ActiveRecord::Base
 
 
 end
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 84b1e168eb3c7d489e4a040a12d88ca14c6eee6f
